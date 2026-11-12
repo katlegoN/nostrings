@@ -1,10 +1,12 @@
 // NOSTRINGS service worker: caches the app shell so it opens offline.
-const CACHE = 'nostrings-v2';
+const CACHE = 'nostrings-v3';
 const ASSETS = [
   './',
   './index.html',
   './manifest.webmanifest',
   './hero.jpg',
+  './messages.css',
+  './messages.js',
   './icons/apple-touch-icon.png',
   './icons/icon-192.png',
   './icons/icon-512.png'
